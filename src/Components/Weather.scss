@@ -1,0 +1,26 @@
+.weatherInfo {
+    background-color:hsla(219, 9, 86, .9);
+    width: 100vh;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 25px;
+        img {
+            height: 85px;
+        }
+        h1 {
+            color: hsl(246, 44%, 18%);
+            font-family: 'montse-bold';
+            font-size: 2.75rem;
+        }
+        h1, h2, h3 {
+            margin-bottom: 15px;
+        };
+        h2{
+            color: hsl(246, 44%, 18%);
+            font-family: 'montse-bold';
+            font-size: 1.75rem;
+        }
+        h3 {
+            font-family: 'montse-light';
+        }
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'montse-regular';
+  src: url(./Fonts/Montserrat-Medium.ttf);
+};
+
+@font-face {
+  font-family: 'montse-light';
+  src: url(./Fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: 'montse-bold';
+  src: url(./Fonts/Montserrat-Bold.ttf);
+};
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.App {
+  text-align: center;
+  background-color: hsl(246, 44%, 18%);
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  font-family: 'montse-regular';
+  display: flexbox;
+}
+
+
