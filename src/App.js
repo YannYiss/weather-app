@@ -9,7 +9,7 @@ export default function App() {
   const [weather, setWeather] = useState({});
   const [input, setInput] = useState('');
   const [city, setCity] = useState('guadalajara'); 
-  const apiKey= process.env.REACT_APP_WEATHER_KEY;
+  const apiKey= process.env.REACT_APP_API_KEY;
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   const inputHandler = (event) => {
